@@ -16,7 +16,7 @@ def generate_response(chat_messages):
     completion = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",    # used model
         messages = chat_messages,   # the array of messages
-        max_tokens = 4096,          # max value of gpt-3.5-turbo
+        max_tokens = 1000,          # max value of gpt-3.5-turbo is 4096
         temperature = 0.5,          # 0.0 = correct, 1.0 = creative
         n = 1                       # number of choices generated for each input message
     )
