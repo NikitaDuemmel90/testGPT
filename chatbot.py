@@ -1,7 +1,7 @@
 import openai
 
-# retrieve and set the api key
-api_key_file = open("apikey.txt", "r")
+# retrieve and set the openai api key
+api_key_file = open("openai_apikey.txt", "r")
 api_key = api_key_file.readline()
 api_key_file.close()
 openai.api_key = api_key
