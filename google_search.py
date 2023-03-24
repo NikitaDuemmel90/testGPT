@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "AIzaSyAIWEFdwoFLxi7zzBtgBP_7-HldO2UvjP8"
+API_KEY = ""
 SEARCH_ENGINE_ID = "43290867be9fa42f8"
 QUERY = "python"
 
